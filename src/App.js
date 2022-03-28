@@ -1,9 +1,9 @@
-import Home from "./components/Home/Home";
+import HandleRouter from "./components/Router/HandleRouter";
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+      <HandleRouter/>
     </div>
   );
 }
