@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 
 const About = () => {
     const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [loading] = useState(true);
     const [error, setError] = useState(null);
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/posts?_limit=8`)
