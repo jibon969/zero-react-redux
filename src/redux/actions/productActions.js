@@ -4,8 +4,8 @@ export const setProducts = (products) =>{
     return{
         type:ActionTypes.SET_PRODUCTS,
         payload:products
-    }
-}
+    };
+};
 
 
 export const selectedProducts = (product) =>{
@@ -14,6 +14,7 @@ export const selectedProducts = (product) =>{
         payload:product
     };
 };
+
 
 
 
