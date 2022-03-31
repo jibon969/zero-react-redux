@@ -7,7 +7,7 @@ const Blog = () => {
     const blog = useSelector((state)=>state.blog)
     const dispatch = useDispatch();
 
-    console.log("blog : ", blog)
+    // console.log("blog : ", blog)
     const fetchBlog = async () =>{
         const response = await axios.get(
             `https://jsonplaceholder.typicode.com/posts?_limit=10`
